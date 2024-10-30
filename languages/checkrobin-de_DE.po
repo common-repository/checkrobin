@@ -1,0 +1,366 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkrobin\n"
+"POT-Creation-Date: 2021-12-20 10:42+0100\n"
+"PO-Revision-Date: 2021-12-20 10:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: Checkrobin GmbH <support@checkrobin.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_;esc_html__;esc_html_e;wp_kses;esc_attr;"
+"esc_attr_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: assets\n"
+"X-Poedit-SearchPath-2: templates\n"
+
+#: src/Admin.php:145 src/Admin.php:176 src/Admin.php:177 src/Settings.php:69
+msgid "Checkrobin Settings"
+msgstr "Checkrobin Einstellungen"
+
+#: src/Admin.php:162 src/Admin.php:163
+msgid "Checkrobin Tracking"
+msgstr "Checkrobin Tracking"
+
+#: src/Admin.php:213
+msgid "<strong>Your Tracking-URL:</strong><br /> "
+msgstr "<strong>Ihr Tracking-Link:</strong><br /> "
+
+#: src/Admin.php:239 src/Settings.php:43
+msgid ""
+"You dont have permission to manage options. Please contact site "
+"administrator. You need the capability (access right) \\'edit_checkrobin\\'."
+msgstr ""
+"Sie haben nicht ausreichend Rechte um Optionen zu verwalten. Bitte "
+"kontaktieren Sie den Administrator dieser Seite. Sie benötigen das "
+"Zugriffsrecht \\'edit_checkrobin\\'."
+
+#: src/Admin.php:254 src/Settings.php:126
+msgid "Sorry, your nonce was not correct. Please try again."
+msgstr ""
+"Entschuldigung, die Prüfsumme ihrer Anfrage war nicht korrekt. Bitte "
+"versuchen Sie es erneut oder wenden Sie sich an den Administrator."
+
+#: src/CheckrobinCreate.php:79
+msgid ""
+"No new orders could be found for transfer to Checkrobin business with "
+"allowed status (See Settings). List seems to be up to date."
+msgstr ""
+"Es konnten keine neuen Bestellungen zur Übertragung an Checkrobin-Business "
+"mit erlaubtem Status (Vgl. Einstellungen) gefunden werden. Liste scheint "
+"aktuell."
+
+#: src/CheckrobinCreate.php:102
+msgid "Error Message: Error while preparing package/oder data for API-call"
+msgstr "Fehler bei der Vorbereitung des API Aufrufs"
+
+#: src/CheckrobinCreate.php:528
+msgid "Successfully created parcel. Order ID: "
+msgstr "Order/Packet erfolgreich an Checkrobin-Business übertragen! Order-ID:"
+
+#: src/CheckrobinCreate.php:550
+msgid ""
+"Connection/Parcel create error. Please check the shop-admins E-Mail inbox "
+"for details."
+msgstr ""
+"Verbindung/Paket/Übertragungs-Fehler. Bitte prüfen Sie das Postfach der E-"
+"Mail Adresse die Sie in den Checkrobin-Plugin-Einstellungen hinterlegt haben."
+
+#: src/CheckrobinCreate.php:567
+msgid ""
+"Your Token seems to be invalid. Please go to the WooCommerce > Settings > "
+"Checkrobin plugin settings dialogue and request a new one by entering your "
+"password and username again."
+msgstr ""
+"Ihr Checkrobin-Business Token scheint nicht mehr gültig zu sein. Bitte "
+"wechseln Sie in die Einstellungen des Checkrobin-Plugins und fordern Sie "
+"einen neuen Token durch Eingabe ihrer E-Mail Adresse (Username) und Passwort "
+"an."
+
+#: src/CheckrobinHelper.php:114 src/CheckrobinHelper.php:117
+msgid ""
+"Error: Auth Token is missing! Please go to WooCommerce > Settings > "
+"Checkrobin plugin settings, and enter your checkrobin-business username and "
+"passwort to get one!"
+msgstr ""
+"Fehler: Auth-Token fehlt! Bitte wechseln Sie zu WooCommerce > Einstellungen "
+"> Checkrobin Einstellungen. Geben Sie hier ihren Checkrobin-Business "
+"Benutzernamen (E-Mail) und Ihr Passwort ein, um einen neuen Token "
+"anzufordern!"
+
+#: src/CheckrobinHelper.php:203
+msgid ""
+"Error sending checkrobin failure-mail: No valid email address set in "
+"checkrobin-plugin settings."
+msgstr ""
+"Fehler beim senden der Checkrobin-Fehler E-Mail. Keine valide E-Mail Adresse "
+"in den Checkrobin-Plugin Einstellungen hinterlegt."
+
+#: src/CheckrobinHelper.php:214 src/CheckrobinHelper.php:223
+msgid "WooCommerce: Checkrobin-Plugin API-Error"
+msgstr "WooCommerce: Checkrobin-Plugin API-Fehler aufgetreten"
+
+#: src/CheckrobinHelper.php:225
+msgid "Dear Shop Owner,"
+msgstr "Sehr geehrter Shopbetreiber,"
+
+#: src/CheckrobinHelper.php:227
+#, php-format
+msgid ""
+"a transfer of orders to the checkrobin backend by the \"%1$s\"-plugin failed."
+msgstr ""
+"eine Übertragung von Bestellungen an das Checkrobin-Backend durch das \"%1$s"
+"\"-Plugin schlug fehlt."
+
+#: src/CheckrobinHelper.php:229
+msgid "To start the transfer again, please click here:"
+msgstr "Um die Übertragung erneut zu starten, klicken Sie bitte hier:"
+
+#: src/CheckrobinHelper.php:231
+msgid "Restart Transmission"
+msgstr "Übertragung erneut starten"
+
+#: src/CheckrobinHelper.php:233
+msgid "Please do not reply to this automatically generated email."
+msgstr "Bitte antworten Sie nicht auf diese automatisch generierte E-Mail."
+
+#: src/CheckrobinHelper.php:235
+msgid "Sincerely, "
+msgstr "Mit freundlichen Grüßen,"
+
+#: src/CheckrobinHelper.php:236
+msgid "Your Checkrobin-Plugin"
+msgstr "Ihr Checkrobin-Business Plugin"
+
+#: src/CheckrobinToken.php:62
+msgid ""
+"The following auth token shall be used for any further calls to checkrobin: "
+msgstr ""
+"Der folgende Checkrobin-Business Auth-Token wurde erfolgreich erstellt und "
+"wird für weitere Anfragen verwendet:"
+
+#: src/I18n.php:39
+msgid "Checkrobin"
+msgstr "Checkrobin"
+
+#: src/I18n.php:40
+msgid ""
+"The Checkrobin plugin enables you to transfer order data from your "
+"WooCommerce shop directly to Checkrobin."
+msgstr ""
+"Mit dem Checkrobin-Plugin können Sie Bestelldaten von Ihrem WooCommerce-Shop "
+"direkt an Checkrobin übertragen."
+
+#: src/Settings.php:169
+msgid "Your username or password were invalid."
+msgstr "Ihr Benutzername oder Passwort ist nicht korrekt."
+
+#: src/Settings.php:190
+msgid "Status settings updated successfully."
+msgstr "Die Status-Einstellungen wurden erfolgreich aktualisiert!"
+
+#: src/Settings.php:208
+msgid "Please enter a valid email address!"
+msgstr "Bitte geben Sie eine gültige E-Mail Adresse ein!"
+
+#: src/Settings.php:219
+msgid "Successfully updated E-Mail address!"
+msgstr "Ihre E-Mail Adresse wurde erfolgreich aktualisiert!"
+
+#: templates/page.backend.settings.php:3
+msgid "Checkrobin Settings Page"
+msgstr "Checkrobin Einstellungen"
+
+#: templates/page.backend.settings.php:7
+msgid "Checkrobin-Bussiness Settings"
+msgstr "Checkrobin-Business Einstellungen"
+
+#: templates/page.backend.settings.php:15
+msgid "Checkrobin-Business API-Token"
+msgstr "Checkrobin-Business API-Token"
+
+#: templates/page.backend.settings.php:22
+msgid "Reset settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: templates/page.backend.settings.php:30
+msgid "Checkrobin-Business Username"
+msgstr "Checkrobin-Business Benutzername"
+
+#: templates/page.backend.settings.php:34
+msgid "Checkrobin-Business Password"
+msgstr "Checkrobin-Business Passwort"
+
+#: templates/page.backend.settings.php:45
+msgid "Allowed order status"
+msgstr "Zu berücksichtigende Übertragungs-Status für Bestellungen"
+
+#: templates/page.backend.settings.php:50
+msgid ""
+"The transfer of an order to Checkrobin depends on the status of the order. "
+"Please make sure to configure all status that you would like to use for "
+"sending to checkrobin here. An order is sent to Checkrobin for each status "
+"configured (selected)."
+msgstr ""
+"Die Übertragung von Bestellungen zu Checkrobin hängt vom Status der "
+"jeweiligen Bestellung ab. Bitte stellen Sie sicher, dass Sie hier "
+"ausschließlich Bestelle-Status auswählen, die zu Checkrobin übertragen "
+"werden sollen. Wechselt eine bisher nicht übertragene Bestellung in einen "
+"hier selektierbaren Status so wird diese zu Checkrobin übertragen. "
+"Übertragungen finden alle 5 Minuten oder beim manuellen Betätigen des "
+"Buttons in der Übertragungsliste statt."
+
+#: templates/page.backend.settings.php:54
+msgid "-- DISABLE ALL --"
+msgstr "-- ALLE DEAKTIVIEREN (Keine Übertragung!) --"
+
+#: templates/page.backend.settings.php:69
+msgid "E-Mail Settings"
+msgstr "E-Mail Einstellungen"
+
+#: templates/page.backend.settings.php:74
+msgid "E-Mail for failure messages"
+msgstr "E-Mail Adresse für Fehler E-Mails"
+
+#: templates/page.backend.settings.php:78
+msgid "Add Tracking-Link to WooCommerce order E-Mails?"
+msgstr ""
+"Checkrobin Tracking-Link zu den WooCommerce Standard-Bestell-E-Mails "
+"hinzufügen?"
+
+#: templates/page.backend.settings.php:79
+msgid " checked "
+msgstr " checked "
+
+#: templates/page.backend.settings.php:87
+msgid "Last automatic cron run"
+msgstr "Zeitpunkt des letzten automatischen Abgleichs"
+
+#: templates/page.backend.settings.php:92
+msgid ""
+"Cron runs every 5 minutes. Here you can see the time of the last automatic "
+"cron run:"
+msgstr ""
+"Alle 5 Minuten findet ein automatischer Abgleich zwischen Checkrobin und "
+"WordPress statt. Hier können Sie den Zeitpunkt des letzten -automatischen- "
+"Abgleichs sehen."
+
+#: templates/page.backend.tracking.php:25
+msgid "Orders transferred to Checkrobin"
+msgstr "An Checkrobin übertragene Bestellungen"
+
+#: templates/page.backend.tracking.php:27
+msgid ""
+"<p>Below you can see all orders that have already been transferred from your "
+"shop to checkrobin-business. </p><strong>Please note:</strong><p>Orders must "
+"have the status \"paid / processed\" in your WooCommerce Shop to be "
+"transferred. <br />The transfehr takes place automatically when the status "
+"changes. In addition, for the transfer, only orders that have already been "
+"received in your shop prior to the activation of the plugin will be "
+"considered!</p>"
+msgstr ""
+"<p>Nachfolgend sehen Sie alle Bestellungen, welche bisher von ihrem Shop an "
+"das Checkrobin Business-Backend erfolgreich übertragen wurden. </"
+"p><strong>Bitte beachten Sie:</strong><p>Bestellungen müssen in ihrem "
+"WooCommerce Shop den Status \"bezahlt / in Bearbeitung\" besitzen, um "
+"übertragen zu werden. <br />Der Transfer findet automatisiert im Hintergrund "
+"statt, wenn der Bestellstatus gewechselt wird. Zusätzlich werden für den "
+"Transfer ausschließlich Bestellungen berücksichtigt, die nach der initialen "
+"Aktivierung des Checkrobin-Plugins in Ihrem Shop eingegangen sind!</p>"
+
+#: templates/page.backend.tracking.php:37
+msgid "Update list / send orders"
+msgstr "Liste aktualisieren / Paketentwürfe senden"
+
+#: templates/page.backend.tracking.php:40
+msgid "Cancel selected orders"
+msgstr "Paketentwürfe stornieren"
+
+#: templates/page.backend.tracking.php:43
+msgid "Re-enable selected orders"
+msgstr "Paketentwürfe erneut übertragen"
+
+#: templates/page.backend.tracking.php:46
+msgid "Archive selected orders"
+msgstr "Paketentwürfe archivieren"
+
+#: templates/page.backend.tracking.php:59
+msgid "ID"
+msgstr "ID"
+
+#: templates/page.backend.tracking.php:60
+msgid "PK"
+msgstr "PK"
+
+#: templates/page.backend.tracking.php:61
+msgid "Order-ID"
+msgstr "ID-Bestellung"
+
+#: templates/page.backend.tracking.php:62
+msgid "Reference-ID"
+msgstr "Referenznr. Bestellung"
+
+#: templates/page.backend.tracking.php:63
+msgid "Tracking-Code"
+msgstr "Tracking-Code"
+
+#: templates/page.backend.tracking.php:64
+msgid "Tracking-URL"
+msgstr "Tracking-URL"
+
+#: templates/page.backend.tracking.php:65
+msgid "Order-Status"
+msgstr "Status"
+
+#: templates/page.backend.tracking.php:67
+msgid "Date created"
+msgstr "Erstelldatum"
+
+#: templates/page.backend.tracking.php:68
+msgid "Date changed"
+msgstr "Änderungsdatum"
+
+#: templates/page.backend.tracking.php:81
+msgid "Open Tracking-Code Info"
+msgstr "Tracking-Code Informationen anzeigen"
+
+#~ msgid "Could not find any new orders for transfer. List seems up to date."
+#~ msgstr ""
+#~ "Es konnten keine neuen Bestellungen zur Übertragung an Checkrobin-"
+#~ "Business mit erlaubtem Status (Vgl. Einstellungen) gefunden werden. Liste "
+#~ "scheint aktuell."
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Sie haben nicht ausreichend Rechte um auf diese Seite zuzugreifen."
+
+#~ msgid "Checkrobin-Business Tracking-List"
+#~ msgstr "Checkrobin-Business - Übertragungsliste"
+
+#~ msgid "Your WooCommerce-Shop (via Checkrobin-Plugin)"
+#~ msgstr "Ihr WooCommerce-Shop (via Checkrobin-Plugin)"
+
+#~ msgid "Settings"
+#~ msgstr "Einstellungen"
+
+#~ msgid ""
+#~ "This controls the main heading contained within the email notification. "
+#~ "Leave blank to use the default heading: <code>%s</code>."
+#~ msgstr ""
+#~ "This controls the main heading contained within the email notification. "
+#~ "Leave blank to use the default heading: <code>%s</code>."
+
+#~ msgid "Plain text"
+#~ msgstr ""
+#~ "This controls the main heading contained within the email notification. "
+#~ "Leave blank to use the default heading: <code>%s</code>."
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Multipart"
+#~ msgstr "Multipart"

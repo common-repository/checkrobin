@@ -1,0 +1,6 @@
+Copyright © 2018 checkrobin GmbH
+
+Die checkrobin GmbH (idF checkrobin) erteilt hiermit ausdrücklich die Erlaubnis zur Verwendung dieser Software sowie des zur Verfügung gestellten Codes (API), ausschließlich zur Abwicklung sowie Inanspruchnahme der von checkrobin angebotenen Versand- bzw. Transportdienstleistungen. 
+Die Erlaubnis zu einer darüberhinausgehenden Weiterverwendung, insbesondere zur Versandabwicklung durch - von checkrobin - unabhängige Dritte, wird nicht erteilt.
+checkrobin übernimmt keine Haftung und leistet auch sonst nicht Gewähr für die zur Verfügung gestellte Software sowie allenfalls dadurch verursachte Schäden beim Nutzer sowie Dritten.
+Die gegenständlichen Copyright-Bestimmungen sind bei der Verwendung dieser Software jedenfalls anzuführen.

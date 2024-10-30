@@ -1,0 +1,33 @@
+{
+    "name": "checkrobin/wordpress",
+    "description": "The Checkrobin plugin enables you to transfer order data from your WooCommerce shop directly to Checkrobin.",
+    "type": "wordpress-plugin",
+    "keywords": ["checkrobin", "woocommerce", "parcel", "shipping", "logistic", "delivery", "courier", "wordpress", "plugin"],
+    "homepage": "https://www.checkrobin.com",
+    "authors": [
+        {
+            "name": "checkrobin GmbH",
+            "email": "support@checkrobin.com"
+        }
+    ],
+    "repositories": [{
+            "type": "vcs",
+            "url": "https://github.com/checkrobin/webshopconnect"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tobiasgraeber/convertor"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "composer/installers": "~1.0",
+        "checkrobin/webshopconnect": "dev-master",
+        "olifolkerd/convertor": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CheckrobinForWordpress\\": "src/"
+        }
+    }
+}

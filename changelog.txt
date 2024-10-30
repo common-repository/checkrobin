@@ -1,0 +1,54 @@
+ # Changelog
+All notable changes to this project will be documented in this file.
+
+= 0.0.13 =
+* [Fixed] Added a missing commata in Activator.php, for each CRATE TABLE sql statement, after UNIQUE KEY id (id) definition -> "UNIQUE KEY id (id),". This error prevented the creation of db tables the plugin needs to work correctly. Please deaktivate and re-activate your plugin once to make sure these changes get applyed. 
+
+= 0.0.12 =
+* [Added] Added new functionality that allows to cancel, resend and archive orders (parcel drafts). 
+* [Enhancement] Plugin own css better encapsulated
+
+= 0.0.11 =
+* [Added] Tested and added WooCommerce "WC tested up to"-Tag (Support testet up to 5.4.1)
+* [Added] New Functionality, to define order status to trigger sync!
+* [Added] Added missing datatabe assets
+* [Added] Added method getLastCronRunDate + show last cron run date in settings page
+* [Added] Added support for basic roles and capabilities management: introduced custom capability "edit_checkrobin" (Note: capability is initialy ONLY added to user role "administrator".)
+* [Enhancement] Added seperate menu for checkrobin plugin
+
+= 0.0.10 =
+* [Fixed] Removed frontend assets request to missing file /plugin.min.js
+
+= 0.0.9 =
+* [Enhancement] If an order contains a maximum of 1 product, the dimensions of this product are now used as the basis for the dimensions of the outer box
+* [Changed] The menu item "Settings" has been renamed to "Checkrobin Settings"
+* [Changed] Updated /doc
+
+= 0.0.8 =
+* [Enhancement] Translate Plugin Title and Description, optimize i18n
+* [Changed] Headline of Tracking-List Page
+
+= 0.0.7 =
+* [Added] Compatibility to Wordpress 5.5+ and WooCommerce 4.6+
+* [Changed] Fixed date comparison; send orders also if plugin-activation-date is the same as order-date
+
+= 0.0.6 =
+* [Added] First release version for wordpress repository
+
+= 0.0.5 =
+* [Fixed] Avoid settings link in module overview overloading other modules settings links
+
+= 0.0.4 =
+* [Added] count(): Parameter must be an array or an object that implements Countable as of as of PHP 7.2
+* [Added] Updating composer/installers (v1.5.0 => v1.7.0)
+
+= 0.0.3 =
+* [Added] Added defined check and prefix to constants.php
+* [Added] Re-Worked Failsave email
+
+= 0.0.2 =
+* [Added] Disabled Failsave email
+* [Added] Make sure default timezone is set
+
+= 0.0.1 =
+* [Added] Started Changelog
